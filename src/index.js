@@ -7,8 +7,8 @@ const SEARCH = "//api.github.com/search/repositories";
 export default class App extends Component {
   componentDidMount() {
     fetch(`${SEARCH}?q=preact`)
-      .then(r => r.json())
-      .then(json => {
+      .then((r) => r.json())
+      .then((json) => {
         this.setState({
           results: (json && json.items) || []
         });
@@ -18,9 +18,12 @@ export default class App extends Component {
   render(props, { results = [] }) {
     return (
       <div>
-        <h1>Example</h1>
+        <h1>wahat</h1>
         <div class="list">
-          {results.map(result => <Result result={result} />)}
+          {results.map((result) => (
+            sopmething
+            <Result result={result} />
+          ))}
         </div>
       </div>
     );
