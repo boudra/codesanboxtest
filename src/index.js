@@ -5,7 +5,6 @@ import { Result } from "./result";
 const SEARCH = "//api.github.com/search/repositories";
 
 // hello
-
 // hello again
 
 export default class App extends Component {
