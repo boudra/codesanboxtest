@@ -19,6 +19,7 @@ export default class App extends Component {
   }
 
   render(props, { results = [] }) {
+    // something
     return (
       <div>
         <h1>test</h1>
