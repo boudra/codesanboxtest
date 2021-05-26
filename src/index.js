@@ -18,10 +18,9 @@ export default class App extends Component {
   render(props, { results = [] }) {
     return (
       <div>
-        <h1>wahat</h1>
+        <h1>test</h1>
         <div class="list">
           {results.map((result) => (
-            sopmething
             <Result result={result} />
           ))}
         </div>
